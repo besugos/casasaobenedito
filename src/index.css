@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+
+body {
+  min-height: 100vh;
+  height: 100%;
+  width: 100%;
+  /* background: linear-gradient(180deg, #363467 0%, rgba(30, 29, 79, 0.8) 100%); */
+  background-color: rgb(19, 88, 74);
+  overflow-y: none; /* Garante que o conteúdo possa ser rolado */
+  scrollbar-width: none; /* Para navegadores Firefox */
+}
+
+
+body::-webkit-scrollbar {
+  display: none; /* Para navegadores baseados em WebKit, como Chrome e Safari */
+}
+
+.navbar-item {
+  text-decoration: none;
+}
