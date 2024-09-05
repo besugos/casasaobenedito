@@ -1,6 +1,6 @@
 {
   "homepage": "https://besugos.github.io/casasaobenedito/",
-  "name": "cadastro",
+  "name": "casasaobenedito",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.45.3",
