@@ -15,7 +15,6 @@ function Corrente() {
     try {
       await addRecord(inputName.current.value, inputBirthdate.current.value, inputReason.current.value);
       alert('Registro adicionado com sucesso!');
-      fetchRecords();
     } catch (error) {
       alert('Erro: ' + error.message);
     }
